@@ -668,6 +668,7 @@ mark,
 }
 
 .img-fluid {
+  margin: auto;
   max-width: 100%;
   height: auto;
 }
@@ -4927,14 +4928,15 @@ a.badge:focus, a.badge:hover {
 
 .jumbotron {
   padding: 2rem 1rem;
-  margin-bottom: 2rem;
   background-color: #eceeef;
   border-radius: 0.3rem;
+  text-align: center;
+  font-size: 4rem;
 }
 
 @media (min-width: 576px) {
   .jumbotron {
-    padding: 4rem 2rem;
+    padding: 1rem 2rem;
   }
 }
 
@@ -5834,8 +5836,10 @@ button.close {
 
 .carousel-inner {
   position: relative;
+  margin: auto;
   width: 100%;
   overflow: hidden;
+  height: 588px;
 }
 
 .carousel-item {
@@ -9317,4 +9321,9 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
     display: none !important;
   }
 }
+
+#insider-stories-wrapper {
+  background-color: #eceeef;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
