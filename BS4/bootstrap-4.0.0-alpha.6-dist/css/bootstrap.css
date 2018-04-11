@@ -9326,4 +9326,20 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   background-color: #eceeef;
 }
 
+#music-wrapper {
+  background-color: #eceeef;
+  margin: -1rem 0 0 0;
+  font-family: inherit;
+  ;padding-left: .5rem;
+}
+
+.blockquote-right {
+  text-align: right;
+}
+
+#song-answer {
+  margin: 0 0 .25rem .5rem;
+  font-size: 1rem !important;
+  font-weight: normal !important;
+}
 /*# sourceMappingURL=bootstrap.css.map */
